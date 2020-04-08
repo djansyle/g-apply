@@ -9,6 +9,7 @@
       "es2016.array.include",
       "esnext.asynciterable"
     ],
+    "declaration": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "outDir": "./build",
