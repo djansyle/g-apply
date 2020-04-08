@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rimraf build/",
     "build": "npm run clean && tsc --project tsconfig.json",
-    "test": "mocha ./test/**/*.spec.ts"
+    "test": "mocha ./test/**/*.spec.ts",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
