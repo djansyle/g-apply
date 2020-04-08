@@ -1,0 +1,6 @@
+node_modules/
+.history/
+src/
+test/
+.gitignore
+tsconfig.json
